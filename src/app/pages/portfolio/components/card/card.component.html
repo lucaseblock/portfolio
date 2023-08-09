@@ -1,0 +1,13 @@
+<div class="row">
+  <div class="example-2 card animate__animated animate__backInLeft" (click)="navigateToProject(card.ID)">
+      <div class="wrapper" [ngStyle]="{'background': 'linear-gradient(rgba(0,0,0,0), rgba(0,0,0,10)), url(' + card.IMAGE + ') left / cover no-repeat'}">
+      <div class="data">
+        <div class="content">
+          <span class="author">{{ card.COMPANY }}</span>
+          <h1 class="title"><a href="#">{{ card.CLIENT }}</a></h1>
+          <p class="text">{{ card.DESCRIPTION }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

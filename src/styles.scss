@@ -1,1 +1,209 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: Gobold Regular;
+  src:url(assets/fonts/Gobold-Regular.otf);
+}
+
+*, body {
+	background: transparent;
+	font-family: 'Gobold Regular';
+}
+
+body {
+  overflow-x: hidden;
+}
+
+h1 {
+	color: white;
+	font-size: 4em
+}
+
+h1 > span {
+	color: #14AF4A;
+}
+
+.navbar a {
+	color: white;
+	transition-duration: .3s
+}
+
+.navbar a:hover {
+	color: #14AF4A;
+}
+
+h4 {
+	color: white;
+	margin-bottom: 1vw
+}
+
+.icons {
+	display: flex;
+	justify-content: space-around;
+  color: gray;
+	font-size: 1.5em;
+  width: 150px;
+}
+
+.icons div {
+  transition-duration: .3s
+}
+
+.icons div:hover {
+	color: #14AF4A;
+	cursor: pointer;
+	transform: translateY(4px);
+}
+
+/* particles */
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+  position: fixed;
+  width: 100%;
+  height: -webkit-fill-available;
+  background: black;
+  z-index: -1;
+}
+
+
+/* fin particles */
+
+.description {
+	align-items: center;
+}
+
+.description .profile-img {
+	width: 150px;
+	border-radius: 1vw;
+	filter: grayscale(100%);
+	display: block;
+	margin: auto;
+  border: 3px solid #14AF4A;
+	transition-duration: .3s
+}
+
+.description .profile-img:hover {
+	filter: grayscale(0%);
+	transform: scale(1.05);
+}
+
+p {
+	color: white
+}
+
+.carrera svg {
+	color: #14AF4A;
+  margin-right: 10px;
+}
+
+.carrera p {
+	margin-bottom: 0
+}
+
+.carrera small {
+	color: gray
+}
+
+.point i {
+	color: gray;
+	float: none
+}
+
+.skins{
+	display: flex;
+	justify-content: space-between;
+}
+
+#sobre-mi i, #portfolio i, #contacto i {
+	float: left;
+	color: #14AF4A;
+	margin-right: 1vw;
+	margin-top: 3px
+}
+
+.git {
+	color: gray;
+	transition-duration: .3s
+}
+
+.git:hover {
+	color: #14AF4A;
+	cursor: pointer
+}
+
+#portfolio p {
+	margin-bottom: 0
+}
+
+footer .icons {
+	justify-content: center;
+}
+
+footer .icons > div {
+	width: 4vw;
+}
+
+footer .icons i {
+	font-size: 2em
+}
+
+footer small {
+	float: right;
+	color: gray;
+	transition-duration: .3s
+}
+
+footer small:hover {
+	color: #14AF4A
+}
+
+.navbar-toggler {
+	border: 2px solid #14AF4A!important;
+}
+
+.navbar-toggler:focus {
+	outline: 0
+}
+
+.navbar-toggler-icon {
+    background-image: url(assets/images/burger.png);
+}
+
+@media (max-width: 768px) {
+	.navbar-nav {
+		text-align: center;
+	}
+
+	h1 {
+		font-size: 2em
+	}
+
+	.hello h4 {
+		font-size: 1em
+	}
+
+	.description > div:nth-child(2) {
+		margin-top: 10vw
+	}
+
+	.carrera > div:nth-child(2), .carrera > div:nth-child(3) {
+		margin-top: 10vw
+	}
+
+	.skins {
+		flex-direction: column;
+	}
+
+	#sobre-mi {
+		margin-top: 10vw
+	}
+
+	footer .icons > div {
+   	 	width: 15vw;
+	}
+}

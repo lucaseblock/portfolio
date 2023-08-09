@@ -1,0 +1,146 @@
+{
+  "MENU": {
+    "LANGUAGE": {
+      "TITLE": "Language",
+      "KEY": "EN"
+    },
+    "HOME": "Home",
+    "PORTFOLIO": "Portfolio",
+    "ABOUTME": "About me",
+    "CONTACT": "Contact"
+  },
+  "INTRODUCE": {
+    "HELLO": "Hello<span>!</span>, I'm Lucas Block",
+    "POSITION": "Front-End developer",
+    "ABOUTME": "I love Web development and technology in general, so I am always looking for new challenges.<br>I learn and acquire skills quickly.",
+    "REGARDS": "Thank you for visiting my website from"
+  },
+  "SKILLS": {
+    "SKILLS": "Skills",
+    "ENGLISH": "English"
+  },
+  "WORKEXPERIENCE": {
+    "TITLE": "Work experience",
+    "JOBS": [
+      {
+        "COMPANY": "Axyoma Global",
+        "DESCRIPTION": "Development and layout of institutional web pages. Programming in JavaScript, jQuery and TypeScript. Collaboration and development in Web applications using Angular.",
+        "TIME": "2019 - 2020"
+      },
+      {
+        "COMPANY": "SSCI",
+        "DESCRIPTION": "Programming, development and layout of large-scale Web applications using Angular. Communication with API Rest.",
+        "TIME": "2020 - 2022"
+      },
+      {
+        "COMPANY": "Flux IT",
+        "DESCRIPTION": "Programming, development and layout of large-scale Web applications using Angular. Communication with API Rest.",
+        "TIME": "2022 - Present"
+      }
+    ]
+  },
+  "EDUCATION": {
+    "TITLE": "Education",
+    "DEGREES": [
+      {
+        "DEGREE": "Systems Analyst",
+        "INSTITUTE": "Higher Institute of Computing Virasoro",
+        "TIME": "2015 - 2018"
+      },
+      {
+        "DEGREE": "Master in Javascript",
+        "INSTITUTE": "Udemy",
+        "TIME": "2019"
+      },
+      {
+        "DEGREE": "Angular for Production",
+        "INSTITUTE": "Rosario Tech Hub",
+        "TIME": "2019"
+      }
+    ]
+  },
+  "PORTFOLIO": {
+    "CARDS": [
+      {
+        "ID": "axyoma-global",
+        "IMAGE": "assets/images/portfolio/axyoma1.png",
+        "COMPANY": "Axyoma Global",
+        "CLIENT": "Client: Several",
+        "DESCRIPTION": "I did several projects for this insurance company in Angular. There were some challenges as a technology update was done on all systems."
+      },
+      {
+        "ID": "ssci",
+        "IMAGE": "assets/images/portfolio/lasegunda2.png",
+        "COMPANY": "SSCI",
+        "CLIENT": "Client: La Segunda Seguros",
+        "DESCRIPTION": "I did several projects for this insurance company in Angular. There were some challenges as a technology update was done on all systems."
+      },
+      {
+        "ID": "flux-it",
+        "IMAGE": "assets/images/portfolio/rus3.png",
+        "COMPANY": "Flux IT",
+        "CLIENT": "Client: Río Uruguay Seguros",
+        "DESCRIPTION": "We did several projects for this insurance company in Angular and Ionic. We improved an existing system and made a new dashboard from scratch."
+      },
+      {
+        "ID": "react-fernando-herrera",
+        "IMAGE": "assets/images/portfolio/react1.png",
+        "COMPANY": "React Course",
+        "CLIENT": "Gifs Finder",
+        "DESCRIPTION": "Application that looks for GIF images connected to a Rest API made in the React course from scratch to expert."
+      },
+      {
+        "ID": "html-css",
+        "IMAGE": "assets/images/portfolio/invie1.png",
+        "COMPANY": "Html and css course",
+        "CLIENT": "Invisible guitars",
+        "DESCRIPTION": "First layout I made of a web page from a course I took a few years ago."
+      },
+      {
+        "ID": "spotiapp",
+        "IMAGE": "assets/images/portfolio/spotiapp1.png",
+        "COMPANY": "Curso Angular de cero a experto",
+        "CLIENT": "SpotiApp",
+        "DESCRIPTION": "Aplicación que realicé conectado a la API de Spotify a partir del curso de Angular de cero a experto."
+      },
+      {
+        "ID": "crud-heroes",
+        "IMAGE": "assets/images/portfolio/crudheroes1.png",
+        "COMPANY": "Curso Angular de cero a experto",
+        "CLIENT": "CRUD Héroes",
+        "DESCRIPTION": "CRUD realizado con Angular y Firebase utilizando todos los métodos HTTP. Podés agregar un héroe (usuario), actualizarlo (editarlo) y eliminarlo."
+      },
+      {
+        "ID": "admin-pro",
+        "IMAGE": "assets/images/portfolio/adminpro1.png",
+        "COMPANY": "Curso avanzado de Angular",
+        "CLIENT": "Dashboard administrativo",
+        "DESCRIPTION": "Dashboard realizado con Angular para administrar hospitales y doctores."
+      },
+      {
+        "ID": "pelis-app",
+        "IMAGE": "assets/images/portfolio/pelisapp3.png",
+        "COMPANY": "Curso Ionic de cero a experto",
+        "CLIENT": "Cartelera de películas",
+        "DESCRIPTION": "Aplicación realizada con Ionic que muestra información sobre películas conectada a la API de themoviedb."
+      },
+      {
+        "ID": "qr-scan",
+        "IMAGE": "assets/images/portfolio/scanapp1.png",
+        "COMPANY": "Curso Ionic de cero a experto",
+        "CLIENT": "App para scannear códigos QR",
+        "DESCRIPTION": "Aplicación realizada con Ionic que scannea códigos QR utilizando la librería BarcodeScanner."
+      }
+    ]
+  },
+  "PROJECTS": [
+    {
+      "ID": "axyoma-global",
+      "IMAGE": "assets/images/portfolio/axyoma1.png",
+      "COMPANY": "Axyoma Global",
+      "CLIENT": "Cliente: Unos cuantos",
+      "DESCRIPTION": "Empresa bastante chota en ingles"
+    }
+  ]
+
+}

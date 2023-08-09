@@ -1,0 +1,8 @@
+<div class="col-lg-12 mb-5">
+  <h4>{{ "SKILLS.SKILLS" | translate }}</h4>
+  <div class="d-flex flex-wrap justify-content-center">
+    <ng-container *ngFor="let image of skillsImages">
+      <img [src]="image.src" [alt]="image.title">
+    </ng-container>
+  </div>
+</div>

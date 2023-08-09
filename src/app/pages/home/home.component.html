@@ -1,0 +1,42 @@
+
+<div class="col-lg-12">
+  <h1 [innerHTML]="'INTRODUCE.HELLO' | translate" class="animate__animated animate__backInLeft"></h1>
+  <h4 class="animate__animated animate__backInLeft">{{ "INTRODUCE.POSITION" | translate }}</h4>
+</div>
+
+<div class="container mt-5">
+  <div class="row description animate__animated animate__backInLeft">
+    <app-about-me></app-about-me>
+  </div>
+</div>
+
+<div class="container mt-5 animate__animated animate__backInUp">
+  <div class="row carrera">
+    <app-work-experience></app-work-experience>
+    <app-skills></app-skills>
+    <app-education></app-education>
+  </div>
+</div>
+
+<div class="container mt-5" id="contacto" name="contacto">
+  <div class="row carrera">
+    <div class="col-lg-12">
+      <h4>{{ "MENU.CONTACT" | translate }}</h4>
+      <div>
+        <div class="d-flex align-items-center mb-2">
+          <i class="fa fa-envelope"></i><p>lucasblock049@gmail.com</p>
+        </div>
+      </div>
+      <div>
+        <div class="d-flex align-items-center mb-2">
+          <i class="fa fa-phone"></i><p>+54 3445 3445645915</p>
+        </div>
+      </div>
+      <div>
+        <div class="d-flex align-items-center mb-1">
+          <i class="fa-brands fa-linkedin"></i><p>https://www.linkedin.com/in/lucasblock</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

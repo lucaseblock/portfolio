@@ -1,0 +1,25 @@
+<div class="row justify-content-center align-items-center">
+  <div class="col-5 col-lg-2">
+    <div>
+      <img class="profile-img" src="assets/images/IMG-20220304-WA0027.jpg" width="150">
+    </div>
+  </div>
+  <div class="col-7 col-lg-4">
+    <p [innerHTML]="'INTRODUCE.ABOUTME' | translate"></p>
+      <div class="d-flex">
+        <p>{{ "INTRODUCE.REGARDS" | translate }}</p>
+        <img class="country-flag" [src]="countryFlag">
+      </div>
+      <div class="icons">
+        <div>
+          <i class="fa-brands fa-linkedin" onclick="window.open('https://www.linkedin.com/in/lucasblock/', '_blank')"></i>
+        </div>
+        <div>
+          <i class="fa-brands fa-github" onclick="window.open('https://github.com/lucaseblock', '_blank')"></i>
+        </div>
+        <div>
+          <i class="fa-solid fa-envelope" onclick="window.location.href='mailto:lucasblock049@gmail.com';"></i>
+        </div>
+      </div>
+  </div>
+</div>
